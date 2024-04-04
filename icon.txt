@@ -1,0 +1,32 @@
+7. Initialize the button and specify an icon on the button.
+ 
+Description: 
+      Initilialize the button and specify an icon on the button.
+
+ program : 
+ 
+<html>
+<head>
+ <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <title>Initialize the button and specify an icon on the button</title>
+</head>
+<body>
+ <button id="demo_button">Click me!</button>
+ <script>
+ $(document).ready(function () {
+ $("#demo_button").button({
+ icons: {
+ primary: "ui-icon-gear",
+ secondary: "ui-icon-triangle-1-s"
+ }
+ });
+ });
+ </script>
+</body>
+</html>
+
+output : 
+   
+     Click me!

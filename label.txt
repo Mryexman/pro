@@ -1,0 +1,28 @@
+8. Initialize the button and do not show the label.
+
+Description: 
+ 	Intilialize the button and do not show the label.
+
+Program : 
+
+<html>
+<head>
+ <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <script>
+    $(document).ready(function () {
+    $("#demo_button").button({ text: false
+    });
+    });
+    </script>
+<title>Initialize the button and do not show the label</title>
+</head>
+<body>
+ <button id="demo_button">Button label</button>
+</body>
+</html>
+
+  output :
+    
+        button label 

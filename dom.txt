@@ -1,0 +1,44 @@
+5. Using jQuery insert a DOM element after all 
+paragraphs.
+Description: 
+ To insert a jquery object after all the paragraphs 
+using jquery.
+ Create DOM element or jquery object using 
+<span>tag.
+ Create a paragraph using <p> tag.
+ Create a button using button tag after clicking on 
+which the object will be inserted after 
+paragraph.
+ Write a script that will call a function 
+jquery.After () which is used to insert a jquery 
+object after all the paragraphs.
+ 
+Program: 
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+ $(document).ready(function () {
+ $("button").click(function () {
+$("p").after(document.createTextNode("Helloo!"));
+ });
+ });
+ </script>
+</head>
+<body align="center">
+ <h1 style="color:green;">jquery </h1>
+ <h3>How to insert a DOM element after all 
+paragraphs using jQuery?</h3>
+ <p>bsc it</p>
+ <button>Click Here!</button>
+</body>
+</html>
+
+output :
+
+ jquery
+How to insert a DOM element after all paragraphs using jQuery?
+bsc it
+
+Helloo! Click Here!

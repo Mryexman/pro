@@ -1,0 +1,26 @@
+6. Initialize the button and specify the disable 
+option. 
+ 
+Description: 
+Initialize the button and specify the disable option.
+
+Program :
+    
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+    $("#demo_button").button({ disabled: true
+    });
+    });
+    </script>
+</head>
+<body>
+    <button id="demo_button">Click me!</button>
+   </body>
+   </html>
+
+ output :
+      
+       click me

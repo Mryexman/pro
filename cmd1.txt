@@ -1,0 +1,52 @@
+Usage of following cOMMANDs lS, pwd, tty, p cat , who , whoami , rm , rmdir, mkdir, touch , cd 
+
+
+Commands.
+List commands.:
+     It is used to list all contents of current working directory. Syntax: $ls -Options. <Arguments.>
+If the command doesn't contain any argument, means it is.Working in the current directory.
+Options.:
+ A - Used to list all the files in the current working directory.
+C - List all the files column wise.
+D- List all the directories.
+M- List the files separated by commas.
+P- List files include.”/” To all directories.
+R - List the files in reverse alphabetical order.
+F - List the files based on last modification.
+
+Pwd Command.:
+ To print the complete path of present working directory.
+ Syntax. $pwd
+
+TTY command.
+It will display the terminal name.
+Syntax.$tty 
+
+Who am I?Command.
+  Display the details of current working directory.
+Syntax.$who am i
+
+Who command:
+  It is used to display who are the users connected to our computer currently.
+Syntax.$Who - Options.
+
+RM command.
+It is used to remove.The files permanently.
+Syntax.RM <File_name.>
+
+Mkdir Command.:
+To create Or make a new directory in a current.Directory.
+Syntax.mkdir < Directory name >
+
+Rm dir :
+To remove a directory in the current directory and not the current directory itself.
+Syndex. Rmdir <directory name>
+
+Touch command.
+Touch command is a standard command used in Unix or Linux Os.Which is used to create an Empty file.
+Syntax : touch filename
+
+CD command.:
+To change or move the directly to the Mentioned directory
+Syntax.CD.Directory name.
+. 
